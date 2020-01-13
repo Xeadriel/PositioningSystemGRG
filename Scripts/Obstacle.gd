@@ -19,6 +19,7 @@ func _process(delta):
 
 func _input(event):
 	if deletable and event.is_action_pressed("delete"):
+		scaler.visible = false
 		queue_free()
 
 func _on_Area2D_input_event(viewport, event, shape_idx):
