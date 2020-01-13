@@ -7,7 +7,7 @@
 extents = Vector2( 14.591, 14.2485 )
 
 [node name="Obstacle" type="Sprite"]
-position = Vector2( 47.3045, 33.1619 )
+position = Vector2( 30, 30 )
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
 
